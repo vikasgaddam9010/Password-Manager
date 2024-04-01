@@ -42,3 +42,8 @@
   width: 170px;
   height: 18px;
 }
+@media(min-width:576px){
+  .li-container {
+    width: 100%;
+  }
+}
