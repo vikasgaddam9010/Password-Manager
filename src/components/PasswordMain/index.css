@@ -1,0 +1,230 @@
+* {
+  margin: 0px;
+  font-family: 'Roboto';
+}
+.bg-container {
+  background-image: linear-gradient(#9ba9eb, #c3caea);
+  height: 100%;
+  background-size: cover;
+  padding: 70px;
+}
+.app-logo {
+  width: 130px;
+}
+.top-container {
+  background-color: #5763a5;
+  margin-top: 70px;
+  display: flex;
+  padding: 40px;
+  border-radius: 10px;
+}
+.add-new-password-container {
+  width: 50%;
+  height: 50%;
+  background-color: #454f84;
+  border-radius: 15px;
+  padding: 20px;
+}
+.password-manager-image {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/password-manager-lg-img.png');
+  background-size: cover;
+  margin-left: auto;
+  width: 40%;
+  height: 50vh;
+}
+.add-new-head {
+  color: #f8fafc;
+  font-size: 20px;
+}
+.img-con {
+  border-right: 2px solid #94a3b8;
+  height: 50px;
+}
+.input-img {
+  width: 50px;
+  padding: 10px;
+}
+.input {
+  background-color: #ffffff;
+  height: 50px;
+  display: flex;
+  justify-content: cenetr;
+  align-items: center;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+.input-element-in-fomr {
+  padding: 10px;
+  border: 0px solid;
+  background-color: #ffffff;
+  width: 100%;
+  height: 30px;
+}
+.add-btn-container {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+}
+.btn-add {
+  width: 70px;
+  border: 0px solid;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+}
+.password-container {
+  padding: 0px;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-search {
+  background-color: #ffffff;
+  width: 300px;
+  display: flex;
+  justify-content: cenetr;
+  align-items: center;
+}
+.input-element-to-search {
+  padding: 10px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  width: 100%;
+}
+.bottom-container {
+  height: 80vh;
+  background-color: #5763a5;
+  margin-top: 70px;
+  padding: 40px;
+  border-radius: 10px;
+}
+.search-input-img {
+  width: 50px;
+  padding: 10px;
+}
+.hr {
+  border: 1px solid #b6c3ca;
+  margin-top: 25px;
+}
+.head-your-password {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.count-number {
+  margin-left: 10px;
+  text-align: center;
+  padding: 2px;
+  font-size: 14px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  width: 22px;
+}
+.row-checkbox {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+}
+.check-label {
+  margin-left: 10px;
+  color: #ffffff;
+}
+.passwords-list-or-no-passwords {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.img-no-password {
+  width: 500px;
+  height: 300px;
+  margin-bottom: 50px;
+}
+.ul-list {
+  list-style-type: none;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+  .bg-container {
+    width: 576px;
+  }
+  .top-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .add-new-password-container {
+    order: 1;
+    width: 100%;
+    height: 350px;
+  }
+  .password-manager-image {
+    order: 0;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png');
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 15px;
+  }
+  .head-your-password {
+    font-size: 14px;
+  }
+  .count-number {
+    font-size: 10px;
+  }
+  .input-search {
+    width: 150px;
+    height: 25px;
+  }
+  .input-element-to-search {
+    height: 15px;
+    width: 100%;
+  }
+  .input-img {
+    width: 40px;
+    padding-left: 05px;
+    padding-right: 05px;
+    padding-top: 10px;
+  }
+  .search-input-img {
+    width: 30px;
+  }
+  .img-con {
+    border-right: 2px solid #94a3b8;
+    height: 100%
+  }
+  .passwords-list-or-no-passwords {
+    height: 250px;
+    width: 100%;
+  }
+  .img-no-password {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  .hr{
+    margin-top: 5px;
+  }
+  .bottom-container{
+    height: 380px;
+    padding: 15px;
+  }
+  .row-checkbox {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+}
